@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parallel tests" parallel="tests" thread-count="4" >
+    <test name="myBank Tests">
+        <parameter name="test-name" value="myBank Test"/>
+        <classes>
+            <class name="myBankCucumber.runners.myBankRunner"/>
+        </classes>
+    </test>
+</suite>

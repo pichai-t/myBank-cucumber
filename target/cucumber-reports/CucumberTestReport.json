@@ -1,0 +1,134 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "myHomeLoanA1",
+        "description": "",
+        "id": "myhomeloan01;myhomeloana1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1105036042,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Test Scenario is \"myHomeLoan-01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "myHomeLoan-01",
+                  "offset": 18
+                }
+              ],
+              "location": "GivenSteps.testScenarioIs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36268301901,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 7,
+                "value": "# Verify Down payment percentage"
+              }
+            ],
+            "line": 8,
+            "name": "I open \"https://www.zillow.com/mortgage-calculator/\" in \"Google Chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.zillow.com/mortgage-calculator/",
+                  "offset": 8
+                },
+                {
+                  "val": "Google Chrome",
+                  "offset": 57
+                }
+              ],
+              "location": "WhenSteps.iOpenIn(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1161354018,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"Home price\" field as \"400000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Home price",
+                  "offset": 9
+                },
+                {
+                  "val": "400000",
+                  "offset": 31
+                }
+              ],
+              "location": "WhenSteps.iEnterFieldAs(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1828696101,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter \"Down payment\" field as \"80000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Down payment",
+                  "offset": 9
+                },
+                {
+                  "val": "80000",
+                  "offset": 33
+                }
+              ],
+              "location": "WhenSteps.iEnterFieldAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152221499,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I see \"Percentage of Down payment\" as \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Percentage of Down payment",
+                  "offset": 7
+                },
+                {
+                  "val": "20",
+                  "offset": 39
+                }
+              ],
+              "location": "ThenSteps.iSeeAs(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "myHomeLoan01",
+    "description": "",
+    "id": "myhomeloan01",
+    "keyword": "Feature",
+    "uri": "myHomeLoan.feature"
+  }
+]

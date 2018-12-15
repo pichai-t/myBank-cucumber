@@ -26,12 +26,10 @@ public class myBankRunner extends AbstractTestNGCucumberTests {
 
     }
 
-
     // =======================================
     @AfterClass
     public void tearDown()
     {
-
 
     }
 
